@@ -41,7 +41,7 @@
               [animation]="'slide'" [interval]="0">
   <mdb-carousel-item *ngFor="let item of slides; let i = index">
     <div class="col-md-4 pb-2" *ngFor="let card of item; let cardIndex = index">
-      <mdb-card class="my-1 h-100" mdbDraggable="true" [lockAxis]="'x'">
+      <mdb-card class="my-1 h-100">
         <mdb-card-img src="../assets/env.png" alt="Card image cap"></mdb-card-img>
         <mdb-card-body>
           <mdb-card-title>
